@@ -13,6 +13,9 @@
         "args": ["--node-env=production"],
         "cwd": "apps/joben-auth"
       },
+      "test": {
+        "dependsOn": ["generate-types "]
+      },
       "configurations": {
         "development": {
           "args": ["--node-env=development"]
