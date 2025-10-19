@@ -1,0 +1,20 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Job {
+  name: String!
+  description: String!
+}
+
+type Query {
+  jobs: [Job!]!
+}
+
+type Mutation {
+  executeJob(executeJobInput: ExecuteJobInput!): Job!
+}
+
+input ExecuteJobInput {
+  name: String!
+}

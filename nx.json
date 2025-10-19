@@ -37,7 +37,7 @@
       "options": {
         "targetName": "test"
       },
-      "exclude": ["apps/joben-auth-e2e/**/*"]
+      "exclude": ["apps/joben-auth-e2e/**/*", "apps/joben-jobs-e2e/**/*"]
     }
   ]
 }
